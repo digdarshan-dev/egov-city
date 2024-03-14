@@ -1,0 +1,14 @@
+{
+  "name": "employee",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/employee/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "options": {
+        "port": 4300
+      }
+    }
+  },
+  "tags": []
+}

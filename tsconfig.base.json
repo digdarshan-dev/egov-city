@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@egov-city/auth": ["libs/auth/src/index.ts"],
+      "@egov-city/bpa": ["libs/bpa/src/index.ts"],
+      "@egov-city/shared-ui": ["libs/shared/ui/src/index.ts"],
+      "@egov-city/tradeLicense": ["libs/tradeLicense/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
